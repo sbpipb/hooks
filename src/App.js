@@ -1,9 +1,5 @@
-// import logo from './logo.svg';
 import './App.css';
-
 import React from 'react';
-import { getValue } from '@testing-library/user-event/dist/utils';
-// import logo from './logo.svg'
 
 function Todo({ todo, completeTodo, deleteTodo, index }) {
 
