@@ -55,15 +55,13 @@ function App() {
     },
     { text: 'walis',
     complete: false
-  }
+    }
     ,{
       text: 'bike' ,
       complete: false
     }
   ], 
-  () => {
-    console.log('arsars')
-  }
+  null
     )
 
 
@@ -114,30 +112,9 @@ function App() {
 
         <TodoForm addTodo={addTodo}/>
       </div>
-
-
-
     </div>
 
   )
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
 }
 
 export default App;
